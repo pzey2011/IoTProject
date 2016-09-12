@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Plug name:</strong>
+  <%= @plug.plug_name %>
+</p>
+
+
+<p>
+  <strong>Plug status:</strong>
+  <%= @plug.status %>
+</p>
+
+
+<p>
+  <strong>User:</strong>
+  <%= @plug.user_id %>
+</p>
+
+<p>
+  <strong>Mac address:</strong>
+  <%= @plug.mac_address %>
+</p>
+
+<p>
+  <strong>Bluetooth address:</strong>
+  <%= @plug.bluetooth_address %>
+</p>
+
+<%= link_to 'Edit', edit_plug_path(@plug) %> |
+<%= link_to 'Back', plugs_path %>

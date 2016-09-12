@@ -1,0 +1,22 @@
+$id=-1
+class ApiController < ApplicationController
+	def sendlocation
+		$id=params[:id]
+		
+	end
+	def getlocation
+		render :text => $id , :layout => false
+	end
+	def setsid
+		$sid=params[:id]
+	end
+	def getsid
+		render :text => $sid , :layout => false
+	end
+	def setpwd
+		$pwd=params[:id]
+	end
+	def getpwd
+		render :text => $pwd , :layout => false
+	end
+end

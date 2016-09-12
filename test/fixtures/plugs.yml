@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  plug_name: MyString
+  user_id: 1
+  mac_address: MyString
+  bluetooth_address: MyString
+
+two:
+  plug_name: MyString
+  user_id: 1
+  mac_address: MyString
+  bluetooth_address: MyString

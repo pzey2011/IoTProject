@@ -1,0 +1,9 @@
+$id=""
+class ModemipController < ApplicationController
+	def setip
+		$id=params[:id]
+	end
+	def getip
+		render :text => $id , :layout => false
+	end
+end

@@ -1,0 +1,9 @@
+$id=""
+class ModempassController < ApplicationController
+	def setpwd
+		$id=params[:id]
+	end
+	def getpwd
+		render :text => $id , :layout => false
+	end
+end

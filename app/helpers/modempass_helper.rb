@@ -1,0 +1,2 @@
+module ModempassHelper
+end
