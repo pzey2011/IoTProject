@@ -4,7 +4,7 @@ server '37.58.51.237', port: 22, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:pzey2011/IoTProject.git'
 set :application,     'IoTProject'
-set :user,            'pzey2011'
+set :user,            'root'
 set :puma_threads,    [4, 16]
 set :puma_workers,    0
 
